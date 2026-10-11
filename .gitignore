@@ -1,0 +1,15 @@
+# Python runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+.ipynb_checkpoints/
+
+# Training data is not required by the deployed inference API.
+credit_risk_dataset.csv
+
+# Keep credit_risk_model.pkl and best_threshold.pkl tracked: the API loads them at startup.
